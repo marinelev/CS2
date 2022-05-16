@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;500;600;700&display=swap');
+
+h1 {
+	font-family: 'Akshar', sans-serif;
+	font-size: 35px;
+	color: white;
+	text-align: center;
+	padding-top: 7px;
+	text-decoration: underline;
+}
+
+h2 {
+	margin-top: 2px;
+	margin-bottom: 5px;
+	color:  black;
+	font-size: 25px;
+	font-family: 'Akshar', sans-serif;
+	text-align: center;
+}
+
+h3 {
+	margin: 20px 10px 15px 10px;
+	padding: 15px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Akshar', sans-serif;
+	text-decoration: none;
+	text-align: center;
+	background-color: black;
+	border-radius: 10px;
+}
+
+h4 {
+	text-decoration: underline;
+	margin: 0;
+	color:  black;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Akshar', sans-serif;
+	align-content: center;
+}
+
+body {
+  	margin:  0px;
+  	background-color: rgba(47,88,167,255);
+  	font-family: 'Akshar', sans-serif;
+}
+
+a {	
+	font-family: 'Akshar', sans-serif;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 8px 16px;
+  display:  flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.navbar li {
+  font-size: 20px;
+  display: inline;
+  margin: 0 16px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.banner {
+	display: flex;
+	height: 200px;
+	justify-content: center;
+	flex-direction: column;
+ 	align-items: center;
+ 	justify-items: center;
+}
+
+.button-blue {
+  	text-align: center;
+  	color: black;
+	font-size: 20px;
+  	background-color: white;
+  	padding: 14px;
+  	margin-bottom: 5px;
+  	margin-top: 10px;
+  	border-radius: 5px;
+}
+
+.button-blue:hover {
+	text-decoration: underline;
+	background-color: black;
+	color: white;
+	transition: O.5s;
+}
+
+.container {
+	justify-content:  space-evenly;
+	display: flex;
+}
+
+.cards {
+  	gap: 70px;
+  	display: grid;
+  	align-items: center;
+  	justify-content: space-evenly;
+ 	grid-template-columns: 3fr;
+ }
+
+.card-white {
+  margin-top: 2;
+  background-color: white;
+  padding: 3px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 0px 2px #00000040;
+  text-align: center;
+  align-content: center;
+  width: 500px;
+  height: 350px;
+  object-fit: contain;
+}
+
+.card-white img {
+  padding: 2px;
+  width: 100px;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 200px;
+}
+
+.card-white button {
+	position: sticky;
+}
+
+.services h3 {
+	margin-top: 20px;
+}
+
+.services p {
+/*	margin: 3px;*/
+	color: white;
+	text-align: center;
+}
+
+.services ul {
+	text-align: center;
+	gap:  90px;
+}
+
+.services li {
+	color: rgba(248,241,15,255);
+	display: inline;
+	margin:  0;
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+.aboutme {
+	align-content: center;
+	text-align: center;
+	display: flex;
+	color: white;
+	flex-direction: column;
+	background-attachment: fixed;
+	object-position: top;
+}
+
+.aboutme img {
+	margin: 0px 10px 0px 10px;
+	border-radius: 10px;
+	background-attachment: fixed;
+	height: 95px;
+	text-align: center;
+}
+
+.networks {
+	display:  flex;
+	flex-direction:  column;
+/*	align-items:  center;*/
+text-overflow: clip;
+}
+
+.networks img {
+	background-attachment: fixed;
+	object-position: center;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.footer {
+  	background-color: rgba(255, 255, 255, 0.9);
+  	padding: 8px;
+  	margin-top: 20px;
+}
+
+.footer p {
+	font-size:  14px;
+	text-align: center;
+	color: rgba(47,88,167,255);
+}
+
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+ }
